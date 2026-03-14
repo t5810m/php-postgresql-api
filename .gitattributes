@@ -1,0 +1,22 @@
+# Normalize all text files to LF in the repository and on checkout.
+* text=auto eol=lf
+
+# Explicit overrides for common file types.
+*.php text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.sql text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.env text eol=lf
+*.dist text eol=lf
+
+# Binary files - no line ending conversion.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
